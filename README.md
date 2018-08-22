@@ -10,7 +10,8 @@ Lambda function to deploy a static website to s3 from git.
 
 2. Create a Lambda function:
 	- Runtime: Python 2.7;
-	- Default service role.
+	- Default service role;
+	- Time out of 30 seconds at least.
 3. Edit the above Lambda service role in IAM to include:
 	- Publish to SNS topic policy (if needed);
 	- S3 policy to get items from the build bucket;

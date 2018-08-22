@@ -6,7 +6,7 @@ Lambda function to deploy a static website to s3 from git.
 1. Create a CodeBuild project:
 	- Choose project name, source and environment;
 	- In Artifacts, select type = s3, name = replaceBuildArchive.zip, bucket name = replaceBuildBucketS3Name, artifact packaging - zip;
-	- Create a default role and proceed.
+	- Create a new role from templates, name the role and proceed.
 
 2. Create a Lambda function:
 	- Runtime: Python 2.7;

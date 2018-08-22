@@ -1,6 +1,7 @@
 # lambdadeploytos3
 
 Lambda function to deploy a static website to s3 from git.
+
 0. Create an S3 bucket for hosting and an S3 bucket for build artifacts;
 1. Create a CodeBuild project:
 	- Choose project name, source and environment;

@@ -1,4 +1,6 @@
-# lambdadeploytos3
+BEFORE S3 DEPLOYMENT ACTIONS IN CODE PIPELINE WERE A THING
+
+# lambda deploy to s3
 
 Lambda function to deploy a static website from CodeBuild artifact to s3.
 
